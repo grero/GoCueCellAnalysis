@@ -2,8 +2,9 @@
 name = "GoCueCellAnalysis"
 authors = [{name = "Roger Herikstad", email = "rherikstad@proton.me"},
 		  ]
-dependencies = ["juilacall",
-				"matplotib",
+version = "0.1.0"
+dependencies = ["juliacall",
+				"matplotlib",
 				"numpy",
 				"scipy"
 				]
