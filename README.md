@@ -1,6 +1,19 @@
 # GoCueCellAnalysis
 Analysis of cells with distinct go-cue related responses
 
+## Installation
+1) Clone this repository
+2) Optionally, create a conda environment
+```bash
+conda create -n gocuecells
+conda activate gocuecells
+conda install pip
+```
+3) Navigate to the repository and install using `pip`
+```bash
+pip install .
+```
+
 ## Usage
 Download data from Zenodo: [https://zenodo.org/records/10499868](https://zenodo.org/records/10499868)
 
