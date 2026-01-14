@@ -1,0 +1,10 @@
+[project]
+name = "GoCueCellAnalysis"
+authors = [{name = "Roger Herikstad", email = "rherikstad@proton.me"},
+		  ]
+dependencies = ["juilacall",
+				"matplotib",
+				"numpy",
+				"scipy"
+				]
+readme = "README.md"
