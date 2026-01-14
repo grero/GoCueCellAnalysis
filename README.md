@@ -17,6 +17,8 @@ pip install .
 ## Usage
 Download data from Zenodo: [https://zenodo.org/records/10499868](https://zenodo.org/records/10499868)
 
+Load the data and plot the raster for a single, showing responses aligned to the response saccade onset.
+
 ```python
 from GoCueCellAnalysis import analysis
 import matplotlib.pylab as plt
