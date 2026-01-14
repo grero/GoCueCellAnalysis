@@ -9,3 +9,10 @@ dependencies = ["juliacall",
 				"scipy"
 				]
 readme = "README.md"
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+"*" = ["juliapkg.json"]
